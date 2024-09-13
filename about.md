@@ -6,6 +6,8 @@ permalink: /about/
 
 I'm currently a senior software engineer at One Medical, focusing on patient preventative care and health data security. In my free time I like to read sci-fi and fantasy books (currently reading [The Stormlight Archive](https://www.brandonsanderson.com/pages/the-stormlight-archive-series) 😁) and go fishing to get outside. As a new homeowner and soon-to-be dad, I've also been spending a lot of time learning about lawn care. Please reach out and connect with me! I love meeting with new folks to hear their experiences.
 
+You can download a PDF copy of my resume [here](./assets/downloads/resume.pdf).
+
 ## Skills 🛠️
 
 ### Tools and frameworks
@@ -24,14 +26,11 @@ I'm currently a senior software engineer at One Medical, focusing on patient pre
 - **Ruby on Rails** - Most of my work has been modularizing monolithic applications to improve scalability and pave the way for expanding to microservices later on. In addition to the core Rails framework, I've used gems like:
   - [Packwerk](https://github.com/Shopify/packwerk)
   - [ActiveAdmin](https://activeadmin.info)
-- **Developer Productivity** - A mixed bag of things I use to keep me productive while writing code:
-  - [Github]()
-  - [Jira]()
-  - [Confluence]()
-- **Personal Productivity** - I'm big fan of iterating on tools to make managing my digital brain easier. Some current highlights:
-  - [Obsidian](https://obsidian.md)
-  - [Excalidraw](https://excalidraw.com)
+- **Productivity & Collaboration** - A mixed bag of tools I've used:
+  - [Github](https://github.com)
+  - [Jira](https://www.atlassian.com/software/jira)
   - [Trello](https://trello.com)
+  - [Confluence](https://www.atlassian.com/software/confluence)
 
 ### Programming Languages
 
