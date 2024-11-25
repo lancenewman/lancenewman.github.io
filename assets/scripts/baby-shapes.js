@@ -32,7 +32,7 @@ ctx.fillStyle = "white";
 
 const domRect = canvas.getBoundingClientRect();
 
-const randomNumber = (min, max) => {
+const randomInteger = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
@@ -40,15 +40,24 @@ const drawRandomRect = () => {
   const xScale = canvas.width / domRect.width;
   const yScale = canvas.height / domRect.height;
 
-  const width = randomNumber(1, domRect.width * xScale);
-  const height = randomNumber(1, domRect.height * yScale);
+  const width = randomInteger(1, domRect.width * xScale);
+  const height = randomInteger(1, domRect.height * yScale);
 
-  const xPos = randomNumber(0, width);
-  const yPos = randomNumber(0, height);
+  const xPos = randomInteger(0, width);
+  const yPos = randomInteger(0, height);
+
+  const horizontalCenter = (xPos + width) / 2;
+  const verticalCenter = (yPos + height) / 2;
+
+  // Randomly rotates the shape around it's center before drawing
+  ctx.translate(horizontalCenter, verticalCenter);
+  ctx.rotate((randomInteger(0, 180) * Math.PI) / 180)
+  ctx.translate(-horizontalCenter, -verticalCenter);
+
   ctx.fillRect(xPos, yPos, width, height);
 }
 
-for(let i = 0; i <= randomNumber(0, 5); i++) {
+for(let i = 0; i <= randomInteger(0, 7); i++) {
   drawRandomRect();
 }
 
