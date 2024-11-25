@@ -1,7 +1,10 @@
+@import "colors.css";
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Rubik", sans-serif;
+  font-size: 18px;
 }
 
 .overlay {
@@ -16,10 +19,24 @@ body {
   margin-top: -125px;
   line-height: 1.6;
   padding: 10px;
-  background-color: grey;
+  background-color: var(--overlay-0);
+  color: var(--text);
   z-index: 2;
   cursor: pointer;
   border-radius: 5px;
+}
+
+#instructions-close {
+  background-color: var(--surface-0);
+  border: none;
+  color: var(--text);
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#instructions-close:hover {
+  background-color: var(--surface-1)
 }
 
 #baby-shapes-canvas {
