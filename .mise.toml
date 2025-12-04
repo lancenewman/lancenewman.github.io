@@ -1,0 +1,22 @@
+[tools]
+ruby= "3.4.7"
+
+[tasks.dev]
+description = "Serve the website with live reloading enabled."
+run = "mise run serve --livereload"
+
+[tasks.serve]
+description = "Serve the website."
+run = "bundle exec jekyll serve"
+
+[tasks.build]
+description = "One-off build of the website."
+run = "bundle exec jekyll build"
+
+[tasks.clean]
+description = "Removes all generated files."
+run = "bundle exec jekyll clean"
+
+[tasks.doctor]
+description = "Outputs any deprecation or configuration issues."
+run = "bundle exec jekyll doctor"
