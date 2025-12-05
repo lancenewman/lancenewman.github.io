@@ -5,10 +5,10 @@ date: 2025-12-05 07:02 -0500
 ---
 # Advent of Games
 
-Every December, I tell myself that *this* is the year I’ll finally finish the [Advent of Code](https://adventofcode.com/) coding challenge. I jump in with manic enthusiasm, crush a few of the easier early puzzles, and then inevitably fall off around the middle of the month as holiday festivities ramp up — and it’s even harder these days now that we have a kid. There’s only so much I can get done between 5:30 and 7:00 AM before she wakes up, and sometimes I just want to sleep in, damnit.
+Every December, I tell myself that *this* is the year I’ll finally finish the [Advent of Code](https://adventofcode.com/) coding challenge. I jump in with manic enthusiasm, crush a few of the easier early puzzles, and then inevitably fall off around the middle of the month as holiday festivities ramp up. It’s even harder these days now that we have a kid. There’s only so much I can get done between 5:30 and 7:00 AM before she wakes up, and sometimes I just want to sleep in, damnit.
 
 
-I’ve picked up the habit of browsing [Hacker News](https://news.ycombinator.com/) in the mornings because there’s usually an interesting article or three to read instead of doomscrolling Instagram. A few days ago, I came across a different flavor of advent calendar challenge for sysadmins: [Advent of Sysadmin](https://sadservers.com/advent). That got me thinking—what if there were a similar challenge for creating video games?
+I’ve picked up the habit of browsing [Hacker News](https://news.ycombinator.com/) in the mornings because there’s usually an interesting article or three to read instead of doomscrolling Instagram. A few days ago, I came across a different flavor of advent calendar challenge for sysadmins: [Advent of Sysadmin](https://sadservers.com/advent). That got me thinking — what if there were a similar challenge for creating video games?
 
 The advent calendar format is perfect for this. A lot of people feel intimidated by game development, especially when working solo, but breaking it into small, daily chunks makes the whole process feel approachable. You get a guided path from a blank project to a finished, playable game.
 
@@ -48,7 +48,7 @@ If you try this challenge and learn something, I’d love to hear about it. Dece
 
 ### Game Engines
 
-These are just a few popular engines—or engines I’ve personally used— but feel free to use whatever you like! The challenge is written with a 2D game in mind, but it can easily be adapted to 3D if that’s more your style.
+These are just a few popular engine or engines I’ve personally used, but feel free to use whatever you like! The challenge is written with a 2D game in mind, but it can easily be adapted to 3D if that’s more your style.
 
 - [Godot](https://godotengine.org/)  
 - [Unity](https://unity.com/)  
