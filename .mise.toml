@@ -3,7 +3,7 @@ ruby= "3.4.7"
 
 [tasks.dev]
 description = "Serve the website with live reloading enabled."
-run = "mise run serve --livereload"
+run = "mise run serve --livereload --drafts"
 
 [tasks.serve]
 description = "Serve the website."
@@ -20,3 +20,11 @@ run = "bundle exec jekyll clean"
 [tasks.doctor]
 description = "Outputs any deprecation or configuration issues."
 run = "bundle exec jekyll doctor"
+
+[tasks.draft]
+description = "Create a new draft post."
+run = "bundle exec jekyll draft"
+
+[tasks.publish]
+description = "Publish a draft post."
+run = "bundle exec jekyll publish"
